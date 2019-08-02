@@ -55,7 +55,7 @@ function getEmail(smsNumber, msgContent, smsReciveTime) {
             linkText: "mailto:" + arr[0],
             startIndex: arr[arr.length - 2],
             endIndex: arr[arr.length - 2] + arr[0].length,
-            action: actionArr[14].value,
+            action: actionArr[14].name,
         };
         results.push(result);
     });
